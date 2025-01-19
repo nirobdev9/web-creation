@@ -109,6 +109,33 @@ section{
     font-weight: bold;
 
 }
+/* some fact section */
+.fact-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 75px;
+}
+.fact{
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.fact-number{
+  font-size: 2.3rem;
+  font-weight: 600;
+  color: #424242;
+}
+.fact-name{
+  font-size: 1rem;
+  font-weight: 600;
+  color: #727272;
+}
+ 
+ 
 /* banner responsive */
 @media screen and (max-width: 576px) {
   .navbar,
