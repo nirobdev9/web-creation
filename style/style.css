@@ -13,6 +13,23 @@
 .display-flex{
     display: flex;
 }
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1); ;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+.site-description{
+    color: #727272;
+    font-size: 0.75rem;
+}
 
 /* navbar style */
 
@@ -23,7 +40,12 @@
 .nav-link{
     text-decoration: none;
     margin-right: 30px;
-
+    color: #424242;
+     
+}
+.brand{
+    font-size: 2rem;
+    font-weight: 700;
 }
 .nav-links{
     list-style: none;
@@ -32,4 +54,18 @@
     max-width: 1180px;
     margin: 0 auto;
 }
-/* header style */
+ /* banner style */
+ .banner-content{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .banner-title{
+    font-size: 3rem;
+    font-weight: bold;
+ }
+ .img-banner{
+    width: 100%;
+ }
+ 
